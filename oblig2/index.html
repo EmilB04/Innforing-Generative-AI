@@ -4,30 +4,32 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Kunstig intelligens</title>
+    <meta name="description" content="Lær om kunstig intelligens, typer AI, og utfordringer knyttet til AI.">
+    <meta name="keywords" content="Kunstig intelligens, AI, Smal AI, Generell AI, Superintelligens, Etiske bekymringer, Arbeidsledighet, Sikkerhet">
     <link rel="icon" href="images/logo.webp" type="image/webp">
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <header>
-        <nav>
+        <nav aria-label="Hovedmeny">
             <ul>
-                <li><a href="#intro">Hva er AI?</a></li>
-                <li><a href="#types">Typer AI</a></li>
-                <li><a href="#challenges">Utfordringer</a></li>
+                <li><a href="#intro" tabindex="0">Hva er AI?</a></li>
+                <li><a href="#types" tabindex="0">Typer AI</a></li>
+                <li><a href="#challenges" tabindex="0">Utfordringer</a></li>
             </ul>
         </nav>
     </header>
     
     <main>
-        <section id="intro">
-            <img src="images/brain.webp" alt="">
-            <h1>Hva er Kunstig Intelligens?</h1>
+        <section id="intro" aria-labelledby="intro-heading">
+            <img src="images/brain.webp" alt="Illustrasjon av en hjerne">
+            <h1 id="intro-heading">Hva er Kunstig Intelligens?</h1>
             <p>Kunstig intelligens (AI) er et felt innen informatikk som fokuserer på å skape systemer som kan utføre oppgaver som vanligvis krever menneskelig intelligens. Dette inkluderer oppgaver som læring, problemløsning, språkforståelse og visuell persepsjon.</p>
         </section>
 
-        <section id="types">
-            <img src="images/ai-types.webp" alt="Kunstig intelligens">
-            <h2>Typer av Kunstig Intelligens</h2>
+        <section id="types" aria-labelledby="types-heading">
+            <img src="images/ai-types.webp" alt="Illustrasjon av forskjellige typer AI">
+            <h2 id="types-heading">Typer av Kunstig Intelligens</h2>
             <ul>
                 <li><strong>Smal AI:</strong> Designet for å utføre én bestemt oppgave, som for eksempel stemmegjenkjenning eller ansiktsgjenkjenning.</li>
                 <li><strong>Generell AI:</strong> En hypotetisk form for AI som kan utføre enhver intellektuell oppgave et menneske kan utføre.</li>
@@ -35,9 +37,9 @@
             </ul>
         </section>
 
-        <section id="challenges">
-            <img src="images/challenges.webp" alt="">
-            <h2>Utfordringer med Kunstig Intelligens</h2>
+        <section id="challenges" aria-labelledby="challenges-heading">
+            <img src="images/challenges.webp" alt="Illustrasjon av utfordringer med AI">
+            <h2 id="challenges-heading">Utfordringer med Kunstig Intelligens</h2>
             <p>Selv om AI har mange fordeler, finnes det også utfordringer og risikoer:</p>
             <ul>
                 <li><strong>Etiske bekymringer:</strong> Bruk av AI kan føre til spørsmål rundt personvern, overvåkning og bias i dataene.</li>
@@ -54,11 +56,26 @@
     <script src="script.js"></script>
 </body>
 </html>
-
 <!-- Nettside:-->
-    <!--https://chatgpt.com/c/67911e38-b92c-8010-a95c-f6eb68d0727e-->
-    <!--https://chatgpt.com/share/679a8bbf-d9cc-8010-b1d2-5bf4a8678ad8-->
+    <!--https://chatgpt.com/c/67911e38-b92c-8010-a95c-f6eb68d0727e -->
+    <!--https://chatgpt.com/share/679a8bbf-d9cc-8010-b1d2-5bf4a8678ad8 -->
 
-<!-- Logo: -->
-    <!--https://chatgpt.com/c/679a8b18-43dc-8010-87b9-f3b6127b808a-->
-    <!--https://chatgpt.com/share/679a8ba6-120c-8010-9c84-21918cc7974c-->
+<!-- Bilder: -->
+    <!--https://chatgpt.com/c/679a8b18-43dc-8010-87b9-f3b6127b808a -->
+    <!--https://chatgpt.com/share/679a8ba6-120c-8010-9c84-21918cc7974c -->
+
+<!--
+GitHub copilot: Gjør nettsiden semantisk riktig, og utfør SEO
+Resultat: 
+1. Bruke semantiske HTML5-elementer som <header>, <nav>, <main>, <section>, <footer>, og <article>.
+2- Legge til alt-attributter for bilder for bedre tilgjengelighet og SEO.
+3. Bruke relevante meta-tagger for SEO.
+
+GitHub copilot: Legg til aria-labels, tab-index osv for bedre tilgjengelighet
+Resultat:
+1. La til aria-label-attributter for navigasjonsmenyen og seksjonene for bedre tilgjengelighet.
+2. La til tabindex-attributter for lenker i navigasjonsmenyen for å forbedre tastaturnavigering.
+3. La til aria-labelledby-attributter for seksjonsoverskrifter for å forbedre tilgjengeligheten.
+
+
+-->
